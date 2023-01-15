@@ -15,7 +15,6 @@ import org.yoprogramo.API.model.Educacion;
 import org.yoprogramo.API.service.IEducacionService;
 
 @RestController
-@CrossOrigin(origins = "https://springboot-blanche-a.koyeb.app")
 public class EducacionController {
     @Autowired
     private IEducacionService eduServ;
