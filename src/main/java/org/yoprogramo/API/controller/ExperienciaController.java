@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.yoprogramo.API.model.Experiencia;
 import org.yoprogramo.API.service.IExperienciaService;
 
+@CrossOrigin(maxAge = 3600)
 @RestController
-@CrossOrigin(origins = "https://springboot-blanche-a.koyeb.app")
 public class ExperienciaController {
     @Autowired
     private IExperienciaService expeServ;
