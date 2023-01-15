@@ -15,7 +15,6 @@ import org.yoprogramo.API.model.HabilidadDura;
 import org.yoprogramo.API.service.IHabilidadDuraService;
 
 @RestController
-@CrossOrigin(origins = "https://springboot-blanche-a.koyeb.app")
 public class HabilidadDuraController {
     
     @Autowired
