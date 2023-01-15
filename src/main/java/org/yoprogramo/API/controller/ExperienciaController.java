@@ -16,7 +16,7 @@ import org.yoprogramo.API.model.Experiencia;
 import org.yoprogramo.API.service.IExperienciaService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://springboot-blanche-a.koyeb.app")
 public class ExperienciaController {
     @Autowired
     private IExperienciaService expeServ;
