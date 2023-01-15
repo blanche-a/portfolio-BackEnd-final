@@ -15,7 +15,7 @@ import org.yoprogramo.API.model.HabilidadBlanda;
 import org.yoprogramo.API.service.IHabilidadBlandaService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://springboot-blanche-a.koyeb.app")
 public class HabilidadBlandaController {
     
     @Autowired
