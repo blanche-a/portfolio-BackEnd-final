@@ -16,7 +16,6 @@ import org.yoprogramo.API.model.Persona;
 import org.yoprogramo.API.service.IPersonaService;
 
 @RestController
-@CrossOrigin(origins = "https://springboot-blanche-a.koyeb.app")
 public class PersonaController {
     
     @Autowired
