@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/**").allowedOrigins("https://registered-jenn-blanche-a.koyeb.app");
+        registry.addMapping("/**").allowedOrigins("https://hosting-angular-a556d.web.app");
     }
     
 }
